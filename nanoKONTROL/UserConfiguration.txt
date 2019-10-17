@@ -12,8 +12,8 @@ GlobalChannel: 0
 # If your controller is connected via USB, replace ControllerName
 # with the name of the respective port. Live will then try to
 # recognize the ports for you when you select your Instant-Mappings
-InputName: ControllerName
-OutputName: ControllerName
+InputName: nanoKONTROL 1 SLIDER/KNOB
+OutputName: nanoKONTROL 1CTRL
 # If your controller has pads that send notes, you can use them to
 # play the visible pads in your DrumRacks. Just replace the -1 for
 # the note (and channel) of the respective pad. The arrangement of
@@ -64,14 +64,14 @@ Pad16Channel: -1
 # the channel for each controller if it differs from the global
 # channel (if you leave the channel of an encoder at -1, Live
 # will assume that the encoder uses the global channel).
-Encoder1: -1
-Encoder2: -1
-Encoder3: -1
-Encoder4: -1
-Encoder5: -1
-Encoder6: -1
-Encoder7: -1
-Encoder8: -1
+Encoder1: 14
+Encoder2: 15
+Encoder3: 16
+Encoder4: 17
+Encoder5: 18
+Encoder6: 19
+Encoder7: 20
+Encoder8: 21
 EncoderChannel1: -1
 EncoderChannel2: -1
 EncoderChannel3: -1
@@ -104,8 +104,8 @@ Bank5Button: -1
 Bank6Button: -1
 Bank7Button: -1
 Bank8Button: -1
-NextBankButton: -1
-PrevBankButton: -1
+NextBankButton: 40
+PrevBankButton: 41
 LockButton: -1
 
 [MixerControls]
@@ -113,14 +113,14 @@ LockButton: -1
 # If all sliders use the global channel to send their data,
 # you can leave the channels at -1. You can, of course, use
 # encoders or knobs instead of sliders.
-VolumeSlider1: -1
-VolumeSlider2: -1
-VolumeSlider3: -1
-VolumeSlider4: -1
-VolumeSlider5: -1
-VolumeSlider6: -1
-VolumeSlider7: -1
-VolumeSlider8: -1
+VolumeSlider1: 2
+VolumeSlider2: 3
+VolumeSlider3: 4
+VolumeSlider4: 5
+VolumeSlider5: 6
+VolumeSlider6: 8
+VolumeSlider7: 9
+VolumeSlider8: 12
 Slider1Channel: -1
 Slider2Channel: -1
 Slider3Channel: -1
@@ -129,7 +129,7 @@ Slider5Channel: -1
 Slider6Channel: -1
 Slider7Channel: -1
 Slider8Channel: -1
-MasterVolumeSlider: -1
+MasterVolumeSlider: 13
 MasterSliderChannel: -1
 Send1Knob1: -1
 Send1Knob2: -1
@@ -147,24 +147,24 @@ Send2Knob5: -1
 Send2Knob6: -1
 Send2Knob7: -1
 Send2Knob8: -1
-TrackArmButton1: -1
-TrackArmButton2: -1
-TrackArmButton3: -1
-TrackArmButton4: -1
-TrackArmButton5: -1
-TrackArmButton6: -1
-TrackArmButton7: -1
-TrackArmButton8: -1
+TrackArmButton1: 23
+TrackArmButton2: 24
+TrackArmButton3: 25
+TrackArmButton4: 26
+TrackArmButton5: 27
+TrackArmButton6: 28
+TrackArmButton7: 29
+TrackArmButton8: 30
 VolumeMapMode: Absolute
 SendsMapMode: Absolute
 
 [TransportControls]
 # The transport buttons are also expected not to be toggles.
-StopButton: -1
-PlayButton: -1
-RecButton: -1
-LoopButton: -1
-RwdButton: -1
-FfwdButton: -1
 
 
+StopButton: 46
+PlayButton: 45
+RecButton: 44
+LoopButton: 49
+RwdButton: 47
+FfwdButton: 48
